@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const path = require('path');
 
-module.exports = nextConfig
+const withTM = require('next-transpile-modules')([
+  
+]);
+
+module.exports = withTM({
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname);
+    return config;
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+});
