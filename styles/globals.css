@@ -14,9 +14,9 @@ body {
 
 @font-face {
   font-family: 'iconfont';
-  src: url('/font_3780044_o9n33pp7rxo.woff2?t=1668784407716') format('woff2'),
-    url('/font_3780044_o9n33pp7rxo.woff?t=1668784407716') format('woff'),
-    url('/font_3780044_o9n33pp7rxo.ttf?t=1668784407716') format('truetype');
+  src: url('/fonts/font_3780044_o9n33pp7rxo.woff2?t=1668784407716') format('woff2'),
+    url('/fonts/font_3780044_o9n33pp7rxo.woff?t=1668784407716') format('woff'),
+    url('/fonts/font_3780044_o9n33pp7rxo.ttf?t=1668784407716') format('truetype');
 }
 
 .iconfont {

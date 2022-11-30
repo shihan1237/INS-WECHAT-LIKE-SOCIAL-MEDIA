@@ -10,14 +10,14 @@
     "tailwind": "npx tailwindcss -i ./styles/tailwindInput.css -o ./styles/tailwindOutput.css --watch"
   },
   "dependencies": {
-    "@types/react": "^18.0.25",
     "next": "13.0.3",
-    "next-transpile-modules": "^10.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "next-transpile-modules": "^10.0.0",
+    "@types/react": "^18.0.25"
   }
 }
