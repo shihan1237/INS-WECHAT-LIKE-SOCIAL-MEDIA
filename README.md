@@ -16,7 +16,7 @@ This is a initial version of the project, the backend server is being developed 
 
 If you like, please star~
 
-**For remote work or project cooperation please contact:**
+
 
 ***hamshiageek@gmail.com***
 
