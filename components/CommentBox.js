@@ -31,18 +31,13 @@ export default (props) => {
 
         };
     }, [isCommitAvailable]);
-    useEffect(() => {
 
-    }, []);
     return (
         <div className="box-border p-5 h-screen w-screen max-w-screen-sm fixed 
-        -top-0 bg-gray-200 z-50" style={{
+        -top-0 bg-gray-200 z-50 overflow-scroll" style={{
                 top: `${props.show ? '-0px' : '-100%'}`,
                 transition: 'all 0.5s'
             }}>
-            <form onSubmit={(e) => {
-                e.preventDefault();
-            }} className={''} >
                 <div className="flex justify-between">
                     <button
                         className={"w-14 bg-gray-400 m-1 rounded-md overflow-hidden text-slate-100" +
@@ -114,7 +109,6 @@ export default (props) => {
 
 
 
-            </form>
         </div>
     )
 }
